@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+ nav {
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+   margin: 0 auto;
+   width: 90%;
+ }
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 5%;
+}
+.book img {
+  border: solid white 5px;
+  height: 50%;
+  width: 50%;
+  margin-left: 2%;
+}
+.contact {
+  color: #666666;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.contact a {
+  color: #ff3333;
+  text-decoration: none;
+  font-size: 1.2em;
+}

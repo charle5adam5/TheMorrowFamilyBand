@@ -1,0 +1,46 @@
+body {
+  color: #666666;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container img {
+  display: flex;
+  align-self: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin: 0 auto;
+  width: 90%;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+ .intro, .list {
+   margin-left: 10%;
+   margin-right: 10%;
+ }
+ .intro h1 {
+   color: #ff3333;
+   display: flex;
+   align-items: flex-start;
+   width: 100%;
+ }
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#playlist {
+  display: flex;
+  flex-direction: column;
+}

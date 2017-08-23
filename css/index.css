@@ -1,0 +1,35 @@
+body {
+  background: #666666;
+  font-family: 'Jacques Francois Shadow', cursive;
+}
+ #home {
+   margin-top: 5%;
+   padding-top: 10%;
+ }
+.container {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #666666;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #ff3333;
+  cursor: pointer;
+}
+img {
+  height: 40%;
+  width: 40%;
+}
