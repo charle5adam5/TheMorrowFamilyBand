@@ -29,6 +29,12 @@ nav a:hover {
   color: #ff3333;
   cursor: pointer;
 }
+nav a:active {
+  color: #ff3333;
+}
+
+
+
 img {
   height: 40%;
   width: 40%;

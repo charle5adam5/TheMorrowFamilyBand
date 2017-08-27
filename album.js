@@ -1,17 +1,17 @@
 
 let album = [
-  "./images/morrow2.webp",
-  "./images/dawn2.webp",
-  "./images/morrow3.webp",
-  "./images/jim2.webp",
-  "./images/melindajim.webp",
-  "./images/melinda2.webp",
-  "./images/jim3.webp",
-  "./images/morrow4.webp",
-  "./images/ad1.webp",
-  "./images/ad2.webp",
-  "./images/ad3.webp",
-  "./images/ad4.webp"
+  "./images/morrow2.JPG",
+  "./images/dawn2.JPG",
+  "./images/morrow3.JPG",
+  "./images/jim2.JPG",
+  "./images/melindajim.JPG",
+  "./images/melinda2.JPG",
+  "./images/jim3.JPG",
+  "./images/morrow4.JPG",
+  "./images/ad1.JPG",
+  "./images/ad2.JPG",
+  "./images/ad3.JPG",
+  "./images/ad4.JPG"
 ],
   curIndex = 0;
   imgDuration = 4000;
