@@ -1,20 +1,9 @@
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
 .container img {
   display: flex;
   align-self: center;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  margin: 0 auto;
-  width: 90%;
-}
 .media {
   display: flex;
   flex-direction: column;
@@ -27,13 +16,18 @@ nav {
 }
 
 #album {
-    opacity:1;
-    transition: opacity 1s;
     padding: 5px;
 }
-
-#album.fadeOut {
-    opacity:0;
+.fade {
+  animation: fade 2s ease-in-out;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to  {
+    opacity: 1;
+  }
 }
 
 .content {
@@ -44,13 +38,4 @@ nav {
 }
 .content img {
   width: 50%;
-}
-#video {
-  display: flex;
-  flex-direction: column;
-}
-
-#video iframe {
-  margin-top: 2%;
-  border: solid 3px #ff3333;
 }

@@ -1,27 +1,14 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
- nav {
-   display: flex;
-   flex-direction: row;
-   align-content: center;
-   margin: 0 auto;
-   width: 90%;
- }
+
 .book {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 80%;
-  margin-top: 5%;
+  width: 70%;
 }
 .book img {
   border: solid white 5px;
-  height: 50%;
-  width: 50%;
+  height: 70%;
+  width: 70%;
   margin-left: 2%;
 }
 .contact {
@@ -35,4 +22,11 @@
   color: #ff3333;
   text-decoration: none;
   font-size: 1.2em;
+}
+
+@media screen and (max-width: 800px) {
+  .book {
+    flex-direction: column;
+    font-size: 80%;
+  }
 }

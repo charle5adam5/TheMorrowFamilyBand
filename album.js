@@ -1,31 +1,36 @@
 
+var photo = document.getElementById("album");
+
 let album = [
-  "./images/morrow2.JPG",
-  "./images/dawn2.JPG",
-  "./images/morrow3.JPG",
-  "./images/jim2.JPG",
-  "./images/melindajim.JPG",
-  "./images/melinda2.JPG",
-  "./images/jim3.JPG",
-  "./images/morrow4.JPG",
-  "./images/ad1.JPG",
-  "./images/ad2.JPG",
-  "./images/ad3.JPG",
-  "./images/ad4.JPG"
-],
+  "./images/gallery1.JPG",
+  "./images/gallery2.JPG",
+  "./images/gallery3.JPG",
+  "./images/gallery4.JPG",
+  "./images/gallery5.JPG",
+  "./images/gallery6.JPG",
+  "./images/gallery7.JPG",
+  "./images/gallery8.JPG",
+  "./images/gallery9.JPG",
+  "./images/gallery10.JPG",
+  "./images/gallery11.JPG"
+];
   curIndex = 0;
-  imgDuration = 4000;
+
 
 function fadeIn() {
-  document.getElementById("album").className += "fadeOut";
-  setTimeout(function() {
-    document.getElementById("album").src = album[curIndex];
-    document.getElementById("album").className = "";
-  },1000);
-  curIndex++;
-  if (curIndex == album.length) {
-    curIndex = 0;
-  }
-  setTimeout(fadeIn, imgDuration);
+  album.forEach(function(img) {
+    setInterval(function() {
+      photo.className = "";
+    }, 2400);
+  })
+    setInterval(function() {
+      curIndex++;
+      if(curIndex >= album.length) {
+        curIndex = 0;
+      }
+      photo.className = "fade";
+      photo.src = album[curIndex];
+    }, 2500);
 }
+document.getElementById("album").src = album[curIndex];
 fadeIn();

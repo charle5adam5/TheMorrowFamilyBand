@@ -1,0 +1,22 @@
+img {
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#video {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin-top: 5%;
+}
+
+#video iframe {
+  border: solid 3px #ff3333;
+  margin: 0 auto;
+  margin-top: 2%;
+}

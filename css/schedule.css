@@ -1,36 +1,24 @@
 body {
   color: #666666;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-}
+
 .container img {
   display: flex;
   align-self: center;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  margin: 0 auto;
-  width: 90%;
-}
 .info {
-  border-top: dashed #666666 10px;
-  border-bottom: dashed #666666 10px;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 2%;
 }
 
 img {
-  border: solid white 5px;
   height: 40%;
   width: 40%;
+  margin: 0 auto;
+  padding-top: 5%;
 }
 
 .dates td {
@@ -40,4 +28,10 @@ img {
 }
 .dates tr:nth-child(even) {
   color: #ff3333;
+}
+
+@media screen and (max-width: 1000px) {
+  img {
+
+  }
 }
