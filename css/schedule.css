@@ -8,19 +8,22 @@ body {
 }
 
 .info {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
 }
 
-img {
+#scheduleImg {
   height: 40%;
   width: 40%;
   margin: 0 auto;
   padding-top: 5%;
 }
 
+.dates {
+  margin: 0 auto;
+}
 .dates td {
   padding-left: 1%;
   padding-right: 1%;

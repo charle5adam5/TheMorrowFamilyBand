@@ -1,7 +1,7 @@
 
 var photo = document.getElementById("album");
 
-let album = [
+var album = [
   "./images/gallery1.JPG",
   "./images/gallery2.JPG",
   "./images/gallery3.JPG",
@@ -14,7 +14,7 @@ let album = [
   "./images/gallery10.JPG",
   "./images/gallery11.JPG"
 ];
-  curIndex = 0;
+  var curIndex = 0;
 
 
 function fadeIn() {

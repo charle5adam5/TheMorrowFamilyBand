@@ -1,7 +1,7 @@
-  let playlist = document.getElementById("playlist");
+  var playlist = document.getElementById("playlist");
 
 
-let tracks = [
+var tracks = [
   {
     name: "Ho Hey (Demo)",
     source: './songs/hohey3.mp3'
@@ -24,9 +24,9 @@ let tracks = [
   },
 ];
 tracks.forEach(function(item) {
-  let audio = document.createElement("audio");
-  let source = document.createElement("source");
-  let title = document.createElement("p");
+  var audio = document.createElement("audio");
+  var source = document.createElement("source");
+  var title = document.createElement("p");
       title.innerHTML =item.name;
       audio.setAttribute("controls", "");
       source.setAttribute("src", item.source);
