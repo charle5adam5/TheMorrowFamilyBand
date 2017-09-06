@@ -1,21 +1,23 @@
 body {
-  background: #666666;
   font-family: 'Jacques Francois Shadow', cursive;
 }
 
 #band {
-  border: solid 5px #ff3333;
-  height: 22em;
-  width: 30em;
+  height: 24em;
+  width: 28em;
+  margin: 0 auto;
 }
 .logo {
   height: 30em;
   width: 30em;
+  margin: 0 auto;
+  margin-top: -15%;
+  margin-bottom: -8%;
 }
 
 @media screen and (max-width: 600px) {
   #band {
     height: 12em;
-    width: 20em;
+    width: 19em;
   }
 }

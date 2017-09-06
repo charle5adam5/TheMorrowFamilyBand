@@ -1,70 +1,62 @@
 
-.main-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-.wrapper {
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 50%;
-  width: 60%;
-  margin-top: -10em;
 }
-
-.pics {
+.album {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  justify-content: space-around;
+  width: 50em;
 }
-.pics img {
-  height: 30%;
-  width: 30%;
-  padding-right: 2%;
+.album img {
+  height: 10em;
+  width: 15em;
 }
+
 .names {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 90%;
+  width: 50em;
 }
 .names p {
   color: #ff3333;
-  font-family: 'Felipa', cursive;
-  font-size: 1.6em;
-  text-align: center;
-}
-.bio {
-  width: 40%;
   margin: 0 auto;
-  margin-top: 3%;
+  text-align: center;
+  font-family: 'Felipa', cursive;
+  padding-top: 1%;
+}
+
+.bio {
+  width: 60%;
+  margin: 0 auto;
 }
 .bio p {
   color: #666666;
   font-family: 'Felipa', cursive;
   line-height: 30px;
-  padding: 3%;
 }
-.bio p::first-letter {
+.bio p:first-letter {
   font-size: 3em;
 }
 
 @media screen and (max-width: 900px) {
-  .main-wrapper {
-    display: flex;
-    flex-direction: column;
+  .album {
+    width: 40em;
   }
-  .wrapper {
-    margin-top: 5%;
+  .album img {
+    height: 8em;
+    width: 12em;
+  }
+  .names {
+    width: 40em;
   }
   .names p {
     font-size: 80%;
   }
   .bio {
-    margin: 0;
     width: 60%;
   }
   .bio p {
@@ -83,17 +75,23 @@
   }
 }
 @media screen and (max-width: 700px) {
+  .album {
+    width: 30em;
+  }
+  .album img {
+    height: 6em;
+    width: 9em;
+  }
+  .names {
+    width: 30em;
+  }
   .names p {
-    font-size: 60%;
+    font-size: 70%;
   }
   .bio {
-    margin: 0;
     width: 80%;
   }
   .bio p {
     font-size: 60%;
   }
-}
-@media screen and (max-width: 700px) {
-
 }

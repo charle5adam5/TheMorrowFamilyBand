@@ -1,5 +1,4 @@
 body {
-  background-color: #666666;
   font-family: 'Jacques Francois Shadow', cursive;
 }
 
@@ -9,16 +8,16 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding: 0 10% 10% 10%;
-  margin-top: -10em;
+  height: 100%;
+  padding: 0 10% 0 10%;
 }
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 0 auto;
+  margin-bottom: 5%;
   width: 100%;
-  padding: 5% 0 5% 0;
 }
 
 nav a {
@@ -29,10 +28,16 @@ nav a:hover {
   color: #ff3333;
   cursor: pointer;
 }
-
+.current {
+  background-color: #ff3333;
+  color: white;
+  padding: 5px;
+}
 
 .logo {
   height: 30em;
   width: 30em;
-  margin-bottom: -10%;
+  margin: 0 auto;
+  margin-top: -15%;
+  margin-bottom: -8%;
 }

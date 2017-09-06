@@ -1,9 +1,4 @@
 
-.container img {
-  display: flex;
-  align-self: center;
-}
-
 .content {
   padding-bottom: 20%;
 }
@@ -13,16 +8,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin-top: 30%;
 }
-.media img {
+.album {
   height: 100%;
   width: 100%;
 }
 
-#album {
-
-}
 .fade {
   animation: fade 2s ease-in-out;
 }
