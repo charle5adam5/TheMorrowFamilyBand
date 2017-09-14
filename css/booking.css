@@ -7,8 +7,8 @@
 }
 .book img {
   border: solid white 5px;
-  height: 14em;
-  width: 21em;
+  height: auto;
+  width: 20em;
   margin-left: 2%;
 }
 .contact {

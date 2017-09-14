@@ -3,8 +3,8 @@ body {
 }
 
 #band {
-  height: 24em;
-  width: 28em;
+  height: auto;
+  width: 30em;
   margin: 0 auto;
 }
 .logo {
