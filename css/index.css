@@ -1,23 +1,56 @@
 body {
   font-family: 'Jacques Francois Shadow', cursive;
 }
-
+.container {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  justify-content: space-around;
+}
 #band {
   height: auto;
-  width: 30em;
+  width: 45em;
   margin: 0 auto;
 }
 .logo {
-  height: 30em;
-  width: 30em;
+  height: auto;
+  width: 35em;
   margin: 0 auto;
-  margin-top: -15%;
-  margin-bottom: -8%;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 950px) {
   #band {
-    height: 12em;
-    width: 19em;
-  }
+    width: 40em;
+}
+  .logo {
+    width: 30em;
+}
+@media screen and (max-width: 850px) {
+  #band {
+    width: 35em;
+}
+  .logo {
+    width: 25em;
+}
+@media screen and (max-width: 750px) {
+  #band {
+    width: 30em;
+}
+  .logo {
+    width: 20em;
+}
+@media screen and (max-width: 650px) {
+  #band {
+    width: 25em;
+}
+  .logo {
+    width: 15em;
+}
+@media screen and (max-width: 550px) {
+  #band {
+    width: 20em;
+}
+  .logo {
+    width: 15em;
 }

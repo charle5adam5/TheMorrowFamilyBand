@@ -13,7 +13,7 @@
 }
 .album img {
   height: 10em;
-  width: 15em;
+  width: auto;
 }
 
 .names {
@@ -30,7 +30,7 @@
 }
 
 .bio {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 .bio p {
@@ -42,56 +42,43 @@
   font-size: 3em;
 }
 
-@media screen and (max-width: 900px) {
-  .album {
+@media screen and (max-width: 850px) {
+  .album, .names {
+    width: 45em;
+  }
+  .album img {
+    height: 9em;
+  }
+}
+@media screen and (max-width: 750px) {
+  .album, .names {
     width: 40em;
   }
   .album img {
     height: 8em;
-    width: 12em;
-  }
-  .names {
-    width: 40em;
-  }
-  .names p {
-    font-size: 80%;
-  }
-  .bio {
-    width: 60%;
-  }
-  .bio p {
-    font-size: 80%;
   }
 }
-
-@media screen and (max-width: 1130px) {
-  .names p {
-    font-size: 1.5em;
+@media screen and (max-width: 650px) {
+  .album, .names {
+    width: 35em;
+  }
+  .album img {
+    height: 7em;
   }
 }
-@media screen and (max-width: 1000px) {
-  .names p {
-    font-size: 1.2em;
-  }
-}
-@media screen and (max-width: 700px) {
-  .album {
+@media screen and (max-width: 575px) {
+  .album, .names {
     width: 30em;
   }
   .album img {
     height: 6em;
-    width: 9em;
   }
-  .names {
-    width: 30em;
+}
+@media screen and (max-width: 500px) {
+  .album, .names {
+    width: 25em;
   }
-  .names p {
-    font-size: 70%;
-  }
-  .bio {
-    width: 80%;
-  }
-  .bio p {
-    font-size: 60%;
+  .album img {
+    height: 5em;
   }
 }

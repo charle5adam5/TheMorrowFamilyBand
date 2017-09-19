@@ -32,9 +32,3 @@ body {
 .dates tr:nth-child(even) {
   color: #ff3333;
 }
-
-@media screen and (max-width: 1000px) {
-  img {
-
-  }
-}

@@ -17,24 +17,26 @@ var album = [
 var curIndex = 0;
 photo.src = album[curIndex];
 
+function imgIncrement() {
+  curIndex++;
+  if(curIndex >= album.length) {
+    curIndex = 0;
+  }
+  return photo.src = album[curIndex];
+};
+
 function fadeEffect() {
-  return album.forEach(function(img) {
-    setInterval(function() {
+  if (photo.className != 'fade') {
+    photo.className = 'fade';
+  }
+    setTimeout(function() {
       photo.className = '';
-    }, 1999);
-  });
+    }, 1500);
 };
 
 (function imgChange() {
-    setInterval(function() {
-      fadeEffect();
-    }, 1999);
-    setInterval(function() {
-    curIndex++;
-    if(curIndex >= album.length) {
-      curIndex = 0;
-    }
-    photo.className = 'fade';
-    photo.src = album[curIndex];
-  }, 4000);
+  setInterval(function() {
+    fadeEffect();
+    imgIncrement();
+  }, 3500);
 })();

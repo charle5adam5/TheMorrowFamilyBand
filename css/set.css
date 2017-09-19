@@ -1,10 +1,7 @@
-body {
-  color: #666666;
-}
-
-.container img {
+.content {
   display: flex;
-  align-self: center;
+  flex-flow: row;
+  justify-content: space-around;
 }
 
 .list {
@@ -12,35 +9,42 @@ body {
 }
  .list h1 {
    color: #ff3333;
-   display: flex;
    width: 100%;
  }
-
-.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
 #playlist {
   display: flex;
   flex-direction: column;
   border: solid 5px #ff3333;
-  height: 35em;
+  height: 40em;
   padding: 1%;
   padding-bottom: 2%;
 }
 #playlist img {
-  height: 10em;
-  width: 15em;
+  height: auto;
+  width: 20em;
 }
 #playlist audio {
-  width: 90%;
+  width: 100%;
+  border: solid red 1px;
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
+  #playlist, #playlist img {
+    width: 15em;
+  }
+  .list {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 650px) {
   .content {
-    flex-direction: column;
+    flex-flow: column;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  #playlist {
+    margin: 0 auto;
   }
 }
