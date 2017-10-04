@@ -26,17 +26,17 @@ function imgIncrement() {
 };
 
 function fadeEffect() {
-  if (photo.className != 'fade') {
-    photo.className = 'fade';
-  }
-    setTimeout(function() {
-      photo.className = '';
-    }, 1500);
+    if(photo.className != "fade") {
+        photo.className = "fade";
+      setTimeout(function() {
+        photo.className = "";
+      }, 0999);
+    }
 };
 
 (function imgChange() {
   setInterval(function() {
     fadeEffect();
     imgIncrement();
-  }, 3500);
+  }, 3000);
 })();

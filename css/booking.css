@@ -19,7 +19,7 @@
 .contact a {
   color: #ff3333;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 @media screen and (max-width: 750px) {
   .contact {
@@ -42,15 +42,17 @@
   .contact {
     width: 15em;
     font-size: .85em;
+    justify-content: center;
+    margin-right: 15em;
   }
 }
-@media screen and (max-width: 500px) {
-  .contact {
-    font-size: .7em;
-  }
+@media screen and (max-width: 525px) {
+ .contact a {
+   font-size: 1.25em;
+ }
 }
 @media screen and (max-width: 450px) {
   .contact {
-    font-size: .6em;
+    font-size: .75em;
   }
 }
