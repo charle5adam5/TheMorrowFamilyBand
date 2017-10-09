@@ -3,7 +3,7 @@
 
 var tracks = [
   {
-    name: "Ho Hey (Demo)",
+    name: "Ho Hey",
     source: './songs/hohey3.mp3'
   },
   {
@@ -15,7 +15,7 @@ var tracks = [
     source: './songs/imallright4.mp3'
   },
   {
-    name: "Desert Sky (Demo)",
+    name: "Desert Sky",
     source: './songs/DesertSky.mp3'
   },
   {

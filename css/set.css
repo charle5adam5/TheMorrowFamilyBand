@@ -9,6 +9,7 @@
 }
  .list h1 {
    color: #ff3333;
+   font-size: 1.75em;
    width: 100%;
  }
 
@@ -46,5 +47,8 @@
   }
   #playlist {
     margin: 0 auto;
+  }
+  #playlist audio {
+    width: 90%;
   }
 }
