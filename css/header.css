@@ -51,11 +51,18 @@ nav a:hover {
 }
 @media screen and (max-width: 650px) {
   nav {
-    font-size: .7em;
+    flex-flow: column;
+    align-items: center;
   }
+  nav a {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+  #band {
+    width: 20em;
+}
   .logo {
-    width: 25em;
-  }
+    width: 15em;
 }
 @media screen and (max-width: 550px) {
   nav {
