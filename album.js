@@ -26,7 +26,7 @@ function imgIncrement() {
 };
 
 function fadeEffect() {
-    if(imgIncrement() && photo.className != "fade") {
+    if(photo.className != "fade") {
         photo.className = "fade";
       setTimeout(function() {
         photo.className = "";
@@ -36,7 +36,7 @@ function fadeEffect() {
 
 (function imgChange() {
   setInterval(function() {
-    fadeEffect();
     imgIncrement();
+    fadeEffect();
   }, 3000);
 })();
