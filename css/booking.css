@@ -1,18 +1,20 @@
 .book {
   display: flex;
+  flex-flow: column;
   justify-content: space-around;
+  align-items: center;
   margin: 0 auto;
 }
 .book img {
-  height: 15em;
-  width: auto;
+  height: auto;
+  width: 30em;
   margin-top: 2em;
 }
 .contact {
   color: #666666;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
   width: 20em;
 }
@@ -20,30 +22,24 @@
   color: #ff3333;
   text-decoration: none;
   font-size: 1.5em;
+  margin-bottom: 1em;
 }
 @media screen and (max-width: 750px) {
   .contact {
-    width: 17em;
+    width: 15em;
   }
   .book img {
-    height: 13em;
+    width: 25em;
   }
 }
 @media screen and (max-width: 650px) {
-  .book {
-    flex-flow: column;
-    align-items: center;
-    margin: 0 auto;
-  }
   .book img {
-    height: auto;
-    width: 15em;
+    width: 20em;
   }
   .contact {
     width: 15em;
     font-size: .85em;
     justify-content: center;
-    margin-right: 15em;
   }
 }
 @media screen and (max-width: 525px) {
