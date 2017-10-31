@@ -15,7 +15,7 @@ var album = [
   "./images/gallery11.JPG"
 ];
 
-(function albumFlip() {
+function albumFlip() {
   var curIndex = 0;
   photo.src = album[curIndex];
   setInterval(function() {
@@ -31,4 +31,6 @@ var album = [
     }
     photo.src = album[curIndex];
   }, 3000);
-})();
+};
+
+photo.addEventListener("load", albumFlip());
