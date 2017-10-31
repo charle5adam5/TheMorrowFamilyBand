@@ -14,29 +14,21 @@ var album = [
   "./images/gallery10.JPG",
   "./images/gallery11.JPG"
 ];
-var curIndex = 0;
-photo.src = album[curIndex];
 
-function imgIncrement() {
-  curIndex++;
-  if(curIndex >= album.length) {
-    curIndex = 0;
-  }
-  return photo.src = album[curIndex];
-};
-
-function fadeEffect() {
+(function albumFlip() {
+  var curIndex = 0;
+  photo.src = album[curIndex];
+  setInterval(function() {
+    curIndex++;
+    if(curIndex >= album.length) {
+      curIndex = 0;
+    }
     if(photo.className != "fade") {
         photo.className = "fade";
       setTimeout(function() {
         photo.className = "";
-      }, 0999);
+      }, 1000);
     }
-};
-
-(function imgChange() {
-  setInterval(function() {
-    imgIncrement();
-    fadeEffect();
+    photo.src = album[curIndex];
   }, 3000);
 })();

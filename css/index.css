@@ -14,11 +14,12 @@ nav {
   border-bottom: solid 5px #666666;
   padding-top: 1em;
   padding-bottom: 1em;
-  font-size: 1em;
 }
 nav a {
   color: #666666;
   text-decoration: none;
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5em;
 }
 nav a:hover {
   color: #ff3333;
