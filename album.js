@@ -30,7 +30,7 @@ function albumFlip() {
       }, 1000);
     }
     photo.src = album[curIndex];
-  }, 3000);
+  }, 5000);
 };
 
 photo.addEventListener("load", albumFlip());
