@@ -33,4 +33,8 @@ function albumFlip() {
   }, 5000);
 };
 
-photo.addEventListener("load", albumFlip());
+album.forEach(function(img) {
+  img = new Image();
+  img.onload = albumFlip();
+})
+// photo.addEventListener("load", albumFlip());
