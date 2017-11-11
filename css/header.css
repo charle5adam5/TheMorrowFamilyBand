@@ -7,8 +7,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-self: center;
   height: 100%;
+  width: 95%;
+  margin: 0 auto;
 }
+
+#band {
+  width: 75vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 75vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+
 nav {
   display: flex;
   flex-direction: row;
@@ -17,31 +34,25 @@ nav {
   width: 90%;
   margin-top: 2em;
   margin-bottom: 2em;
-  border-top: solid 5px #666666;
-  border-bottom: solid 5px #666666;
+  border-top: solid 5px #17202A;
+  border-bottom: solid 5px #17202A;
   padding-top: 1em;
   padding-bottom: 1em;
-  font-size: 1em;
+  font-size: 12px;
 }
 
 nav a {
-  color: #666666;
+  color: black;
   text-decoration: none;
 }
 nav a:hover {
-  color: #ff3333;
+  color: #E74C3C;
   cursor: pointer;
 }
 .current {
-  background-color: #ff3333;
+  background-color: #E74C3C;
   color: white;
   padding: 5px;
-}
-
-.logo {
-  height: auto;
-  width: 30em;
-  margin: 0 auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -49,21 +60,18 @@ nav a:hover {
     font-size: .8em;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   nav {
     flex-flow: column;
     align-items: center;
+    width: 50%;
   }
   nav a {
     margin-top: .5em;
     margin-bottom: .5em;
   }
-  #band {
-    width: 20em;
 }
-  .logo {
-    width: 15em;
-}
+
 @media screen and (max-width: 550px) {
   nav {
     font-size: .55em;
@@ -75,5 +83,251 @@ nav a:hover {
 @media screen and (max-width: 450px) {
   nav {
     font-size: .25em;
+  }
+}
+
+/* About style */
+
+#about-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#album {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90vw;
+}
+#album img {
+  height: 20vh;
+  width: auto;
+  padding: 0 5px 0 5px;
+}
+
+.names {
+  color: #E74C3C;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Felipa', cursive;
+  padding-top: 1%;
+}
+
+#bio {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+#bio p {
+  color: #E74C3C;
+  font-family: 'Felipa', cursive;
+  line-height: 30px;
+}
+#bio p:first-letter {
+  font-size: 3em;
+}
+
+
+@media screen and (max-width: 700px) {
+  #album img {
+    height: 15vh;
+  }
+}
+
+/* Set style */
+ #playlist-box {
+   display: flex;
+   flex-flow: row;
+   justify-content: space-around;
+ }
+
+#list {
+  padding-left: 5%;
+}
+ #list h1 {
+   color: #E74C3C;
+   font-size: 1.75em;
+   width: 100%;
+ }
+
+#playlist {
+  display: flex;
+  flex-direction: column;
+  border: solid 5px #E74C3C;
+  height: 650px;
+  padding: 1%;
+  padding-bottom: 2%;
+}
+#playlist img {
+  height: auto;
+  width: 20em;
+}
+#playlist audio {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  #playlist-box {
+    flex-flow: column;
+    align-items: center;
+  }
+}
+
+/* schedule style */
+
+#info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#scheduleImg {
+  height: 40%;
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+#dates {
+  margin: 0 auto;
+}
+#dates td {
+  padding: 1em;
+  border-bottom: solid #17202A 2px;
+}
+#dates tr:nth-child(even) {
+  color: #E74C3C;
+}
+
+@media screen and (max-width: 700px) {
+  .info {
+    font-size: .75em;
+  }
+}
+
+/* photos */
+
+
+#photo-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+#media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+  width: 600px;
+  border: solid 2px black;
+}
+
+#prev {
+  background-color: #E74C3C;
+  border: none;
+}
+#prev:hover {
+  cursor: pointer;
+}
+
+#next {
+  background-color: #E74C3C;
+  border: none;
+}
+#next:hover {
+  cursor: pointer;
+}
+
+#album {
+  height: 100%;
+  width: 100%;
+}
+
+#photo-box img {
+  width: 50%;
+  height: auto;
+}
+
+/* videos style */
+
+#video {
+  display: flex;
+  flex-direction: column;
+}
+
+#video iframe {
+  border: solid 3px #E74C3C;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 575px) {
+  #video iframe {
+    width: 25em;
+  }
+}
+@media screen and (max-width: 475px) {
+  #video iframe {
+    width: 20em;
+  }
+}
+
+/* boooking style */
+#book {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+#book img {
+  height: auto;
+  width: 30em;
+  margin-top: 2em;
+}
+#contact {
+  color: #17202A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 20em;
+}
+#contact a {
+  color: #E74C3C;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 750px) {
+  #contact {
+    width: 15em;
+  }
+  #book img {
+    width: 25em;
+  }
+}
+@media screen and (max-width: 650px) {
+  #book img {
+    width: 20em;
+  }
+  #contact {
+    width: 15em;
+    font-size: .85em;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 525px) {
+ #contact a {
+   font-size: 1.25em;
+ }
+}
+@media screen and (max-width: 450px) {
+  #contact {
+    font-size: .75em;
   }
 }
