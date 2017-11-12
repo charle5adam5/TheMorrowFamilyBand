@@ -5,22 +5,22 @@ var next = document.getElementById("next");
 
 var album = [
   "./images/gallery1.JPG",
-  "./images/flavors.jpg",
+  "./images/flavors.JPG",
   "./images/gallery2.JPG",
   "./images/gallery3.JPG",
-  "./images/flavors2.jpg",
+  "./images/flavors2.JPG",
   "./images/gallery4.JPG",
   "./images/gallery5.JPG",
-  "./images/fullband.jpg",
+  "./images/fullband.JPG",
   "./images/gallery6.JPG",
   "./images/gallery7.JPG",
-  "./images/fullband2.jpg",
+  "./images/fullband2.JPG",
   "./images/gallery8.JPG",
   "./images/gallery9.JPG",
-  "./images/flavors3.jpg",
+  "./images/flavors3.JPG",
   "./images/gallery10.JPG",
   "./images/gallery11.JPG",
-  "./images/flavors4.jpg"
+  "./images/flavors4.JPG"
 ];
 var count = 0;
 photo.src = album[count];
