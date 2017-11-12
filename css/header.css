@@ -54,11 +54,7 @@ nav a:hover {
   padding: 5px;
 }
 
-@media screen and (max-width: 800px) {
-  nav {
-    font-size: .8em;
-  }
-}
+
 @media screen and (max-width: 700px) {
   nav {
     flex-flow: column;
@@ -71,19 +67,7 @@ nav a:hover {
   }
 }
 
-@media screen and (max-width: 550px) {
-  nav {
-    font-size: .55em;
-  }
-  .logo {
-    width: 20em;
-  }
-}
-@media screen and (max-width: 450px) {
-  nav {
-    font-size: .25em;
-  }
-}
+
 
 /* About style */
 
@@ -135,19 +119,21 @@ nav a:hover {
  #playlist-box {
    display: flex;
    flex-flow: row;
-   justify-content: space-around;
+   align-self: center;
+   margin: 0 auto;
+   width: 80%;
  }
 
 #list {
   padding-left: 5%;
+  font-size: 80%;
 }
  #list h1 {
    color: #E74C3C;
-   font-size: 1.75em;
-   width: 100%;
  }
 
 #playlist {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   border: solid 5px #E74C3C;
@@ -288,7 +274,7 @@ nav a:hover {
 }
 #book img {
   height: auto;
-  width: 30em;
+  width: 60vw;
   margin-top: 2em;
 }
 #contact {
@@ -297,40 +283,13 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 20em;
-  padding-bottom: 15%;
+  width: 60vw;
+  margin-bottom: 15%;
+  font-size: 3vw;
 }
+
 #contact a {
   color: #E74C3C;
   text-decoration: none;
-  font-size: 1.5em;
   margin-bottom: 1em;
-}
-@media screen and (max-width: 750px) {
-  #contact {
-    width: 15em;
-  }
-  #book img {
-    width: 25em;
-  }
-}
-@media screen and (max-width: 650px) {
-  #book img {
-    width: 20em;
-  }
-  #contact {
-    width: 15em;
-    font-size: .85em;
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 525px) {
- #contact a {
-   font-size: 1.25em;
- }
-}
-@media screen and (max-width: 450px) {
-  #contact {
-    font-size: .75em;
-  }
 }
