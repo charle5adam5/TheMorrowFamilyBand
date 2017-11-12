@@ -88,7 +88,7 @@ nav a:hover {
 
 #album img {
   height: auto;
-  width: 100px;
+  width: 28vw;
   margin: 0 5px 0 5px;
 }
 
@@ -123,13 +123,12 @@ nav a:hover {
    align-self: center;
    justify-content: space-around;
    margin: 0 auto;
-   width: 95%;
+   width: 90%;
  }
 
 #list {
   margin-left: 5%;
-  font-size: 1.5vw;
-  width: 50vw;
+  font-size: .8em;
 }
  #list h1 {
    color: #E74C3C;
@@ -138,23 +137,41 @@ nav a:hover {
 #playlist {
   display: flex;
   flex-direction: column;
+  align-items: center;
   border: solid 5px #E74C3C;
-  height: 700px;
+  font-size: .8em;
+  width: 300px;
+  height: 575px;
   padding: 1%;
 }
 #playlist img {
   height: auto;
-  width: 20em;
+  width: 300px;
 }
 #playlist audio {
-  width: 100%;
+  width: 90%;
 }
 
-@media screen and (min-width: 400px) and (max-width: 700px) {
-  #list {
-    font-size: 2.5vw;
+@media screen and (max-width: 800px) {
+  #playlist {
+    width: 275px;
+  }
+  #playlist img {
+    width: 275px;
   }
 }
+@media screen and (max-width: 770px) {
+  #playlist {
+    width: 250px;
+  }
+  #playlist img {
+    width: 250px;
+  }
+  #list {
+    font-size: .7em;
+  }
+}
+
 @media screen and (max-width: 700px) {
   #playlist-box {
     flex-flow: column;
