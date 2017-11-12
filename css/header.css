@@ -104,7 +104,7 @@ nav a:hover {
 #album img {
   height: auto;
   width: 28vw;
-  padding: 0 5px 0 5px;
+  margin: 0 5px 0 5px;
 }
 
 #album p {
@@ -126,7 +126,7 @@ nav a:hover {
   line-height: 30px;
 }
 #bio p:first-letter {
-  font-size: 3em;
+  font-size: 30px;
 }
 
 
@@ -298,6 +298,7 @@ nav a:hover {
   align-items: center;
   justify-content: space-around;
   width: 20em;
+  padding-bottom: 15%;
 }
 #contact a {
   color: #E74C3C;
