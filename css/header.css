@@ -106,12 +106,13 @@ nav a:hover {
   padding: 0 5px 0 5px;
 }
 
-.names {
+#album p {
   color: #E74C3C;
   margin: 0 auto;
   text-align: center;
   font-family: 'Felipa', cursive;
   padding-top: 1%;
+
 }
 
 #bio {
