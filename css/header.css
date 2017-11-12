@@ -8,8 +8,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-self: center;
-  height: 100%;
-  width: 95%;
+  width: 90vw;
   margin: 0 auto;
 }
 
@@ -104,7 +103,7 @@ nav a:hover {
 
 #album img {
   height: auto;
-  width: 30vw;
+  width: 28vw;
   padding: 0 5px 0 5px;
 }
 
@@ -118,9 +117,8 @@ nav a:hover {
 
 #bio {
   width: 70vw;
-  height: 100vh;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 5%;
 }
 #bio p {
   color: #E74C3C;
@@ -177,13 +175,14 @@ nav a:hover {
 #info {
   display: flex;
   flex-direction: row;
+  align-self: center;
   align-items: center;
   text-align: center;
   justify-content: space-around;
 }
 
 #schedule {
-  width: 70vw;
+  margin: 0 auto;
 }
 
 #scheduleImg {
@@ -194,7 +193,9 @@ nav a:hover {
 }
 
 #dates {
+  width: 70%;
   margin: 0 auto;
+  font-size: 12px;
 }
 #dates td {
   padding: 1em;
@@ -205,8 +206,8 @@ nav a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  #info {
-    font-size: .75em;
+  #dates {
+    font-size: 10px;
   }
 }
 
