@@ -8,18 +8,18 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-self: center;
-  width: 90vw;
+  width: 90%;
   margin: 0 auto;
 }
 
 #band {
-  width: 75vw;
+  width: 70vw;
   height: auto;
   margin: 0 auto;
 }
 
 #logo {
-  width: 75vw;
+  width: 70vw;
   height: auto;
   margin: 0 auto;
 }
@@ -88,7 +88,7 @@ nav a:hover {
 
 #album img {
   height: auto;
-  width: 28vw;
+  width: 100px;
   margin: 0 5px 0 5px;
 }
 
@@ -123,12 +123,13 @@ nav a:hover {
    align-self: center;
    justify-content: space-around;
    margin: 0 auto;
+   width: 95%;
  }
 
 #list {
   margin-left: 5%;
   font-size: 1.5vw;
-  width: 45vw;
+  width: 50vw;
 }
  #list h1 {
    color: #E74C3C;
