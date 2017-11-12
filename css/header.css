@@ -101,11 +101,8 @@ nav a:hover {
   width: 90%;
 }
 
-#album div {
-  display: block;
-}
 
-#album div img {
+#album img {
   height: auto;
   width: 30vw;
   padding: 0 5px 0 5px;
@@ -121,6 +118,7 @@ nav a:hover {
 
 #bio {
   width: 70vw;
+  height: 100vh;
   margin: 0 auto;
   margin-top: 50px;
 }
