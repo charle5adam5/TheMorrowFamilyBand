@@ -3,12 +3,16 @@
 
 var tracks = [
   {
-    name: "Ho Hey",
-    source: './songs/hohey3.mp3'
+    name: "Long Ride Home",
+    source: './songs/LongRideHome.mp3'
   },
   {
-    name: "Summertime Sadness",
-    source: './songs/SummertimeSadness.mp3'
+    name: "When You Get Older (MFB Original)",
+    source: './songs/WhenYouGetOlder.mp3'
+  },
+  {
+    name: "Ho Hey",
+    source: './songs/hohey3.mp3'
   },
   {
     name: "I'm Alright",
@@ -17,10 +21,6 @@ var tracks = [
   {
     name: "Desert Sky",
     source: './songs/DesertSky.mp3'
-  },
-  {
-    name: "When You Get Older (MFB Original)",
-    source: './songs/WhenYouGetOlder.mp3'
   },
 ];
 tracks.forEach(function(item) {
