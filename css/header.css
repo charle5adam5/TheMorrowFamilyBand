@@ -57,6 +57,22 @@ nav a:hover {
 }
 
 
+#socialMedia {
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+}
+#socialMedia a {
+  display: flex;
+  justify-content: space-around;
+}
+#socialMedia img {
+  margin: 10% 5% 10% 5%;
+  height: 40%;
+  width: auto;
+
+}
+
 @media screen and (max-width: 700px) {
   nav {
     flex-flow: column;
