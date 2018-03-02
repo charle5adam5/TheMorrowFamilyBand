@@ -11,6 +11,7 @@ body {
   align-self: center;
   width: 90%;
   margin: 0 auto;
+  max-width: 900px;
 }
 
 #band {
@@ -198,15 +199,22 @@ nav a:hover {
 
 #info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-self: center;
   align-items: center;
   text-align: center;
   justify-content: space-around;
 }
+#info > h1 {
+  color: #E74C3C;
+}
 
 #schedule {
   margin: 0 auto;
+  height: 200px;
+  overflow-y: scroll;
+  border-top: solid 3px #E74C3C;
+  border-bottom: solid 3px #E74C3C;
 }
 
 #scheduleImg {
@@ -255,17 +263,29 @@ nav a:hover {
 #prev {
   background-color: #E74C3C;
   border: none;
+  font-size: 2em;
+  border-radius: 50%;
 }
 #prev:hover {
   cursor: pointer;
+  opacity: .7;
+}
+#prev:focus {
+  outline: none;
 }
 
 #next {
   background-color: #E74C3C;
   border: none;
+  font-size: 2em;
+  border-radius: 50%;
 }
 #next:hover {
   cursor: pointer;
+  opacity: .7;
+}
+#next:focus {
+  outline: none;
 }
 
 #album {
