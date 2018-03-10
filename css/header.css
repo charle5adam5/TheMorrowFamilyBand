@@ -237,6 +237,20 @@ nav a:hover {
   color: #E74C3C;
 }
 
+.date {
+  display: flex;
+  flex-flow: row;
+}
+.date > p:nth-child(1):after, p:nth-child(2):after {
+  content: '/';
+}
+.upcoming:before {
+  content: 'UPCOMING';
+  background: red;
+  color: white;
+  opacity: .7;
+}
+
 @media screen and (max-width: 600px) {
   #dates {
     font-size: 10px;
