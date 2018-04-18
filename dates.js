@@ -24,10 +24,15 @@ let dates = [
     month: 9,
     day: 15,
   },
+    {
+    year: 2018,
+    month: 5,
+    day: 25,
+  },
   {
     year: 2018,
-    month: 4,
-    day: 6,
+    month: 5,
+    day: 4,
   },
 ];
 
