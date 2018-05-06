@@ -17,20 +17,31 @@ body {
 
 #icons {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
+}
+#icons > img  {
+  height: 40%;
+  width: 40%;
 }
 
-#band {
-  width: 70vw;
+.band {
+  width: 50%;
   height: auto;
   margin: 0 auto;
   margin-top: 5%;
 }
 
-#logo {
-  width: 70vw;
+.logo {
+  width: 50%;
   height: auto;
   margin: 0 auto;
+  margin-top: 5%;
+}
+
+.bears {
+  margin: 0 auto;
+  height: 40%;
+  width: 40%;
   margin-top: 5%;
 }
 
