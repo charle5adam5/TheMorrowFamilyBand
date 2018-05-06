@@ -19,29 +19,25 @@ body {
   display: flex;
   flex-flow: column;
 }
-#icons > img  {
-  height: 40%;
-  width: 40%;
-}
 
 .band {
-  width: 50%;
-  height: auto;
+  height: 300px;
+  width: 300px;
   margin: 0 auto;
   margin-top: 5%;
 }
 
 .logo {
-  width: 50%;
-  height: auto;
+  height: 167px;
+  width: 549px;
   margin: 0 auto;
   margin-top: 5%;
 }
 
 .bears {
   margin: 0 auto;
-  height: 40%;
-  width: 40%;
+  height: 300px;
+  width: 300px;
   margin-top: 5%;
 }
 
@@ -102,6 +98,22 @@ nav a:hover {
   nav a {
     margin-top: .5em;
     margin-bottom: .5em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .band {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .logo {
+    height: 111px;
+    width: 366px;
+  }
+  
+  .bears {
+    height: 200px;
+    width: 200px;
   }
 }
 
