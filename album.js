@@ -20,6 +20,7 @@ var album = [
   "./images/flavors3.JPG",
   "./images/gallery10.JPG",
   "./images/gallery11.JPG",
+  "./images/gallery12.JPG",
   "./images/flavors4.JPG"
 ];
 var count = 0;

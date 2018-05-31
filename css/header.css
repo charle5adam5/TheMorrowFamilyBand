@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Jacques Francois Shadow', cursive;
+  font-family: 'Bitter', cursive;
   margin: 0 auto;
 }
+
+/* .home {
+  height: 100vh;
+  background: url('../images/roseBackground.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+} */
 
 .container {
   display: flex;
@@ -28,10 +38,10 @@ body {
 }
 
 .logo {
-  height: 167px;
-  width: 549px;
+  height: 134px;
+  width: 440px;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .bears {
@@ -48,9 +58,8 @@ nav {
   justify-content: space-around;
   margin: 0 auto;
   width: 90%;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 2em;
-  border-top: solid 5px #17202A;
   border-bottom: solid 5px #17202A;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -70,19 +79,26 @@ nav a:hover {
   color: white;
   padding: 5px;
 }
+.current:hover {
+  background-color: #E74C3C;
+  color: white;
+  padding: 5px;
+}
 
 
 #socialMedia {
   display: flex;
   flex-flow: row;
-  margin: 0 auto;
+  justify-content: flex-end;
+  margin-bottom: -2%;
+  padding: 10px 20px 0px 0px;
 }
 #socialMedia a {
   display: flex;
   justify-content: space-around;
 }
 #socialMedia img {
-  margin: 10% 5% 10% 5%;
+  margin: 10%;
   height: 50px;
   width: 50px;
   background-color: white;
@@ -93,7 +109,8 @@ nav a:hover {
     flex-flow: column;
     align-items: center;
     width: 50%;
-
+    border-left: solid 5px #17202A;
+    border-bottom: none;
   }
   nav a {
     margin-top: .5em;
@@ -142,7 +159,7 @@ nav a:hover {
   color: #E74C3C;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Felipa', cursive;
+  font-family: 'Bitter', cursive;
   padding-top: 1%;
 }
 
@@ -153,8 +170,7 @@ nav a:hover {
   margin-top: 5%;
 }
 #bio p {
-  color: #E74C3C;
-  font-family: 'Felipa', cursive;
+  font-family: 'Bitter', cursive;
   line-height: 30px;
 }
 #bio p:first-letter {
@@ -246,17 +262,12 @@ nav a:hover {
   overflow-y: scroll;
   border-top: solid 3px #E74C3C;
   border-bottom: solid 3px #E74C3C;
+  margin-bottom: 100px;
 }
 
-#scheduleImg {
-  height: 40%;
-  width: 40%;
-  margin: 0 auto;
-  padding-top: 5%;
-}
 
 #dates {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   font-size: 12px;
 }
@@ -268,13 +279,6 @@ nav a:hover {
   color: #E74C3C;
 }
 
-.date {
-  display: flex;
-  flex-flow: row;
-}
-.date p:nth-child(1):after, p:nth-child(2):after {
-  content: '/';
-}
 .upcoming:before {
   content: 'UPCOMING';
   background: red;
@@ -397,6 +401,7 @@ nav a:hover {
 }
 
 #contact a {
+  font-size: 1.25em;
   color: #E74C3C;
   text-decoration: none;
   margin-bottom: 1em;
