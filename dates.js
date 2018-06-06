@@ -27,13 +27,8 @@ let dates = [
   {
     year: 2018,
     month: 6,
-    day: 6,
-  },
-  {
-    year: 2018,
-    month: 6,
-    day: 1,
-  },
+    day: 29,
+  }
 ];
 
 let date = document.querySelectorAll('.date');
