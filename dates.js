@@ -26,8 +26,8 @@ let dates = [
   },
   {
     year: 2018,
-    month: 6,
-    day: 29,
+    month: 8,
+    day: 3,
   }
 ];
 
