@@ -1,23 +1,13 @@
 let dates = [
   {
     year: 2018,
-    month: 12,
-    day: 22,
+    month: 10,
+    day: 20,
   },
   {
     year: 2018,
-    month: 12,
-    day: 21,
-  },
-  {
-    year: 2018,
-    month: 11,
-    day: 17,
-  },
-  {
-    year: 2018,
-    month: 11,
-    day: 16,
+    month: 10,
+    day: 6,
   },
   {
     year: 2018,
