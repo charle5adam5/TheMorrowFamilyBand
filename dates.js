@@ -17,6 +17,16 @@ let dates = [
   {
     year: 2018,
     month: 8,
+    day: 25,
+  },
+  {
+    year: 2018,
+    month: 8,
+    day: 24,
+  },
+  {
+    year: 2018,
+    month: 8,
     day: 3,
   }
 ];
