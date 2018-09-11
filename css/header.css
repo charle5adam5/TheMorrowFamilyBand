@@ -204,7 +204,7 @@ nav a:hover {
   border: solid 5px #E74C3C;
   font-size: .8em;
   width: 300px;
-  height: 700px;
+  height: 750px;
   padding: 2%;
 }
 #playlist img {
@@ -240,6 +240,28 @@ nav a:hover {
     flex-flow: column;
     align-items: center;
   }
+}
+
+.play-btn {
+  height: 10px;
+}
+.volDown {
+  height: 10px;
+}
+.volUp {
+  height: 10px;
+}
+
+.bar {
+ width: 50px;
+}
+
+.player {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+  justify-items: center;
+  align-items: center;
 }
 
 /* schedule style */

@@ -11,24 +11,24 @@ let dates = [
   },
   {
     year: 2018,
+    month: 10,
+    day: 5,
+  },
+  {
+    year: 2018,
+    month: 9,
+    day: 21,
+  },
+  {
+    year: 2018,
+    month: 9,
+    day: 19,
+  },
+  {
+    year: 2018,
     month: 9,
     day: 15,
   },
-  {
-    year: 2018,
-    month: 8,
-    day: 25,
-  },
-  {
-    year: 2018,
-    month: 8,
-    day: 24,
-  },
-  {
-    year: 2018,
-    month: 8,
-    day: 3,
-  }
 ];
 
 let date = document.querySelectorAll('.date');
