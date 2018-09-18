@@ -17,6 +17,11 @@ let dates = [
   {
     year: 2018,
     month: 9,
+    day: 28,
+  },
+  {
+    year: 2018,
+    month: 9,
     day: 21,
   },
   {
