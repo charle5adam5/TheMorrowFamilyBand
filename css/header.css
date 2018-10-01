@@ -61,6 +61,7 @@ nav {
   margin-top: 1em;
   margin-bottom: 2em;
   border-bottom: solid 5px #17202A;
+  background-color: RGBA(10,10,10,.1);
   padding-top: 1em;
   padding-bottom: 1em;
   font-size: 12px;
@@ -197,6 +198,10 @@ nav a:hover {
    color: #E74C3C;
  }
 
+.song-name {
+  color: #E74C3C;
+}
+
 #playlist {
   display: flex;
   flex-direction: column;
@@ -204,7 +209,7 @@ nav a:hover {
   border: solid 5px #E74C3C;
   font-size: .8em;
   width: 300px;
-  height: 750px;
+  height: 850px;
   padding: 2%;
 }
 #playlist img {
