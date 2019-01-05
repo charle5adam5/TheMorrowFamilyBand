@@ -1,18 +1,23 @@
 let dates = [
   {
     year: 2019,
-    month: 1,
-    day: 11,
+    month: 2,
+    day: 23, // casa
   },
   {
     year: 2019,
     month: 1,
-    day: 4,
+    day: 25, //7-10
   },
   {
-    year: 2018,
-    month: 12,
-    day: 22,
+    year: 2019,
+    month: 1,
+    day: 18, // flavors
+  },
+  {
+    year: 2019,
+    month: 1,
+    day: 11, // colonial
   },
  
 ];
