@@ -7,16 +7,29 @@
 
   let isPlaying = false;
 
-  window.onload = function() {
+  (function initSongs() {
     for(let i = 0, j = 0; i < times.length, j < audio.length; i++, j++) {
-    let fullM = Math.floor((audio[j].duration / 60) % 60);
-    let fullS = Math.floor(audio[j].duration % 60);
-    let m = Math.floor((audio[j].currentTime / 60) % 60);
-    let s = Math.floor(audio[j].currentTime % 60);
-    times[i].innerHTML = m + ":" + s + "/" + fullM + ":" + fullS;
-    console.log(audio[j].currentTime);
+      setTimeout(() => {
+        let fullM = Math.floor((audio[j].duration / 60) % 60);
+        let fullS = Math.floor(audio[j].duration % 60);
+        let m = Math.floor((audio[j].currentTime / 60) % 60);
+        let s = Math.floor(audio[j].currentTime % 60);
+        times[i].innerHTML = m + ":" + s + "/" + fullM + ":" + fullS;
+        console.log(audio[j].currentTime);
+      }, 100)
   }
-}
+})()
+
+//   window.onload = function() {
+//     for(let i = 0, j = 0; i < times.length, j < audio.length; i++, j++) {
+//     let fullM = Math.floor((audio[j].duration / 60) % 60);
+//     let fullS = Math.floor(audio[j].duration % 60);
+//     let m = Math.floor((audio[j].currentTime / 60) % 60);
+//     let s = Math.floor(audio[j].currentTime % 60);
+//     times[i].innerHTML = m + ":" + s + "/" + fullM + ":" + fullS;
+//     console.log(audio[j].currentTime);
+//   }
+// }
 
   for(let i = 0, j = 0, k = 0; 
       i < volDown.length, j < volUp.length, k < audio.length;
