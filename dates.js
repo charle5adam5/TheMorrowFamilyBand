@@ -3,15 +3,16 @@ let dates = [
     year: 2019,
     month: 3,
     day: 7, // oak
-  }, {
-    year: 2019,
-    month: 2,
-    day: 6, // oak
-  },
+  }, 
   {
     year: 2019,
     month: 2,
     day: 25, // casa
+  },
+  {
+    year: 2019,
+    month: 2,
+    day: 6, // oak
   },
   {
     year: 2019,
