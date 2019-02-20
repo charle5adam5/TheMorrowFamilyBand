@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>The Morrow Family Band</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link href="./css/header.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -20,15 +21,34 @@
         <a href="booking.html">  Book Us </a>
     </nav>
 
-<div id="photo-box">
-  <div id="media">
-    <button id="prev"> < </button>
-      <img id="album" src=""/>
-    <button id="next"> > </button>
-  </div>
-</div>
+  <div id="photo-box">
+    <div class="photo-focus"></div>
+    <div class="photo-slider"></div>  <!-- end photo wrap -->
+  </div>  <!-- end photo box -->
+
 </div>
 <script type="text/javascript" src="album.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+ $('.photo-focus').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  fade: true,
+  asNavFor: '.photo-slider'
+});
+$('.photo-slider').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  asNavFor: '.photo-focus',
+  dots: false,
+  arrows: false,
+  centerMode: true,
+  focusOnSelect: true
+});
+</script>
 
 </body>
 

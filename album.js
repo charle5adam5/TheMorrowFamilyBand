@@ -1,7 +1,6 @@
 
-var photo = document.getElementById("album");
-var prev = document.getElementById("prev");
-var next = document.getElementById("next");
+const photoFocus = document.querySelector(".photo-focus");
+const photoSlider = document.querySelector(".photo-slider");
 
 var album = [
   "./images/gallery1.JPG",
@@ -23,27 +22,23 @@ var album = [
   "./images/gallery12.JPG",
   "./images/flavors4.JPG"
 ];
-var count = 0;
-photo.src = album[count];
 
 console.log(album.length);
 
+for(let i = 0; i < album.length; i++) {
+  let img = document.createElement("img");
+  let div = document.createElement("div");
+  img.setAttribute("class", "single");
+  img.src = album[i];
+  div.appendChild(img);
+  photoFocus.appendChild(div);
+}
+for(let i = 0; i < album.length; i++) {
+  let img = document.createElement("img");
+  let div = document.createElement("div");
+  img.setAttribute("class", "thumb");
+  img.src = album[i];
+  div.appendChild(img);
+  photoSlider.appendChild(div);
+}
 
-(function images() {
-  next.addEventListener("click", function() {
-    count++;
-    console.log(count);
-    if(count > album.length-1) {
-      count = 0;
-    }
-    photo.src = album[count];
-  });
-  prev.addEventListener("click", function() {
-    count--;
-    console.log(count);
-    if(count < 0) {
-      count = album.length-1;
-    }
-    photo.src = album[count];
-  });
-})();

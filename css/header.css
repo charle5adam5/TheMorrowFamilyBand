@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter');
 
+
+
 body {
   margin: 0;
   padding: 0;
@@ -320,63 +322,67 @@ nav a:hover {
 }
 
 /* photos */
-
-
-#photo-box {
-  display: flex;
-  justify-content: space-around;
+.single {
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin: 10px;
+  max-height: 400px;
+  width: auto;
 }
 
-#media {
-  display: flex;
-  flex-direction: row;
+.photo-focus {
+  display: inline-flex;
+  flex-flow: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-around;
-  height: 500px;
-  width: 600px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin: 0 auto;
+  width: 50vw;
 }
-
-#prev {
-  background-color: #E74C3C;
-  color: white;
-  border: none;
-  font-size: 2em;
-  height: 50px;
-  width: 50px;
-
-}
-#prev:hover {
-  cursor: pointer;
-  opacity: .7;
-}
-#prev:focus {
-  outline: none;
-}
-
-#next {
-  background-color: #E74C3C;
-  color: white;
-  border: none;
-  font-size: 2em;
-  height: 50px;
-  width: 50px;
-}
-#next:hover {
-  cursor: pointer;
-  opacity: .7;
-}
-#next:focus {
-  outline: none;
-}
-
-#album {
+.photo-focus  button {
   height: 100%;
   width: 100%;
+  margin: 10px;
+  padding: 0 20px;
+  text-align: center;
 }
 
-#photo-box img {
+.photo-slider {
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  margin-top: 30px;
   width: 50%;
+}
+.slick-arrow {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: gainsboro;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+}
+.photo-slider img{
+ margin: 30px;
+}
+
+.slick-slide, .slick-active {
+  outline: none;
+}
+
+
+
+
+.thumb {
   height: auto;
+  max-width: 50px;
 }
 
 /* videos style */
