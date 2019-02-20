@@ -329,7 +329,7 @@ nav a:hover {
   left: 50%;
   transform: translate(-50%, 0%);
   margin: 10px;
-  max-height: 400px;
+  height: 200px;
   width: auto;
 }
 
@@ -343,9 +343,10 @@ nav a:hover {
   left: 50%;
   transform: translate(-50%, 0%);
   margin: 0 auto;
-  width: 50vw;
+  width: 90%;
+  max-width: 700px
 }
-.photo-focus  button {
+.photo-focus button {
   height: 100%;
   width: 100%;
   margin: 10px;
@@ -358,7 +359,8 @@ nav a:hover {
   flex-flow: row;
   margin: 0 auto;
   margin-top: 30px;
-  width: 50%;
+  width: 90%;
+  padding-bottom: 100px;
 }
 .slick-arrow {
   height: 100%;
@@ -370,14 +372,12 @@ nav a:hover {
   outline: none;
 }
 .photo-slider img{
- margin: 30px;
+ margin: 0 10px;
 }
 
 .slick-slide, .slick-active {
   outline: none;
 }
-
-
 
 
 .thumb {
@@ -456,5 +456,21 @@ nav a:hover {
   }
   #book img {
     max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .single {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .single {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .single {
+    height: 500px;
   }
 }
