@@ -7,6 +7,11 @@ let dates = [
   {
     year: 2019,
     month: 3,
+    day: 16, // casa
+  },
+  {
+    year: 2019,
+    month: 3,
     day: 15, // flavors
   },
   {
