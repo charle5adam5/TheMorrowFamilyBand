@@ -23,22 +23,25 @@ var album = [
   "./images/flavors4.JPG"
 ];
 
-console.log(album.length);
 
-for(let i = 0; i < album.length; i++) {
-  let img = document.createElement("img");
-  let div = document.createElement("div");
-  img.setAttribute("class", "single");
-  img.src = album[i];
-  div.appendChild(img);
-  photoFocus.appendChild(div);
-}
-for(let i = 0; i < album.length; i++) {
-  let img = document.createElement("img");
-  let div = document.createElement("div");
-  img.setAttribute("class", "thumb");
-  img.src = album[i];
-  div.appendChild(img);
-  photoSlider.appendChild(div);
-}
+  for(let i = 0; i < album.length; i++) {
+    let img = document.createElement("img");
+    let div = document.createElement("div");
+    img.setAttribute("class", "single");
+    img.src = album[i];
+    div.appendChild(img);
+    photoFocus.appendChild(div);
+  }
+  for(let i = 0; i < album.length; i++) {
+    let img = document.createElement("img");
+    let div = document.createElement("div");
+    img.setAttribute("class", "thumb");
+    img.src = album[i];
+    div.appendChild(img);
+    photoSlider.appendChild(div);
+  }
+  
+  
+  
+  
 

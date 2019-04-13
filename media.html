@@ -9,8 +9,12 @@
 </head>
 
 <body>
+    <div class="main">
+        <img class='bears' src='./images/MFB_logo.svg'/>
+    </div>
+    
   <div class="container">
-      <img class='bears' src='./images/MFB_logo.svg'/>
+
     <nav id='nav'>
         <a href="index.html">  Home </a>
         <a href="about.html">  The Morrows </a>
@@ -22,8 +26,13 @@
     </nav>
 
   <div id="photo-box">
-    <div class="photo-focus"></div>
-    <div class="photo-slider"></div>  <!-- end photo wrap -->
+    <div class="photo-focus">
+    </div>
+    <ul class="img-controls">
+        <li class="prev">&#10094</li>
+        <li class="next">&#10095</li>
+      </ul>
+    <div class="photo-slider"></div>  
   </div>  <!-- end photo box -->
 
 </div>
@@ -35,9 +44,11 @@
  $('.photo-focus').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  arrows: true,
+  prevArrow: $(".prev"),
+  nextArrow: $(".next"),
   fade: true,
-  asNavFor: '.photo-slider'
+  asNavFor: '.photo-slider',
+  adaptiveHeight: true
 });
 $('.photo-slider').slick({
   slidesToShow: 3,
