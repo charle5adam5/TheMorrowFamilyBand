@@ -7,7 +7,7 @@
 
   let isPlaying = false;
 
-  (function initSongs() {
+  window.onload = function initSongs() {
     for(let i = 0, j = 0; i < times.length, j < audio.length; i++, j++) {
       setTimeout(() => {
         let fullM = Math.floor((audio[j].duration / 60) % 60);
@@ -18,7 +18,7 @@
         console.log(audio[j].currentTime);
       }, 100)
   }
-})()
+}
 
 //   window.onload = function() {
 //     for(let i = 0, j = 0; i < times.length, j < audio.length; i++, j++) {
