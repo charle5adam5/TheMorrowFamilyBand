@@ -43,10 +43,14 @@ body {
 }
 
 .band {
+  display: block;
+  margin: 0 auto;
   height: 300px;
   width: 300px;
-  margin: 0 auto;
-  margin-top: 5%;
+  background: url("../images/Morrows.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
 }
 
 .logo {
