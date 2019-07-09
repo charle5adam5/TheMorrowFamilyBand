@@ -126,8 +126,6 @@ nav a:hover {
     flex-flow: column;
     align-items: center;
     width: 50%;
-    border-left: solid 5px grey;
-    border-bottom: none;
   }
   nav a {
     margin-top: .5em;
@@ -182,6 +180,7 @@ nav a:hover {
 
 #bio {
   display: flex;
+  flex-flow: column;
   width: 70%;
   margin: 0 auto;
   margin-top: 5%;
