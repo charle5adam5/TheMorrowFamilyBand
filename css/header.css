@@ -188,6 +188,7 @@ nav a:hover {
 #bio p {
   font-family: 'Bitter', cursive;
   line-height: 30px;
+  text-indent: 10px;
 }
 #bio p:first-letter {
   font-size: 30px;
@@ -215,7 +216,12 @@ nav a:hover {
 
 .song-name {
   color: #E74C3C;
+  margin-bottom: -10px;
 }
+.song-tab {
+  color: grey;
+}
+
 
 #playlist {
   display: flex;
