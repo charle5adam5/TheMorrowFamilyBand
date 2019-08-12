@@ -55,7 +55,7 @@ body {
 .band {
   display: block;
   margin: 0 auto;
-  margin-top: 5em;
+  margin-top: 2em;
   height: 300px;
   width: 300px;
   background: url("../images/Morrows.png") no-repeat;
@@ -136,103 +136,31 @@ nav a:hover {
   margin-top: -15px;
 }
 
-
-
 @media screen and (max-width: 700px) {
-  .home {
-    height: 100%;
-  }
- nav {
-   transition: .5s ease;
-   display: flex;
-   flex-flow: column;
-   justify-content: space-between;
-   align-items: center;
-   width: 25%;
-   height: 300px;
-   padding: 0;
-   border-right: double 5px dimgray;
- }
-  nav a {
-    margin-top: .5em;
-    margin-bottom: .5em;
-  }
-
-.home-box {
-  transition: .5s ease;
-  margin-left: 25%;
-  margin-top: -125px;
-}
-.main-vid iframe{
-  transition: .5s ease;
-  margin-top: -125px;
-  height: 200px;
-  width: auto;
-  margin-top: 50px;
-}
-
+ 
   .band {
     height: 200px;
     width: 200px;
   }
-
   .title {
-    font-size: 1.5em;
+    font-size: 1.75em;
   }
-  
-  .bears {
-    margin-top: 25px;
-    margin-left: 25%;
-  }
-}
 
-@media screen and (max-width: 500px) {
-  .home {
-    height: 100%;
+  .main-vid > iframe {
+    height: 150px;
+    width: auto;
   }
- nav {
-   transition: .5s ease;
-   display: flex;
-   flex-flow: column;
-   justify-content: space-between;
-   align-items: center;
-   width: 20%;
-   height: 200px;
-   padding: 0;
-   border-right: double 5px dimgray;
-   font-size: .5em;
- }
+
+  nav {
+    flex-flow: column;
+    align-items: center;
+    padding: 10px 0;
+    font-size: .5em;
+    border-right: double 5px dimgrey;
+    width: 20%;
+  }
   nav a {
-    margin-top: .5em;
-    margin-bottom: .5em;
-  }
-
-.home-box {
-  transition: .5s ease;
-  margin-left: 25%;
-  margin-top: -125px;
-}
-.main-vid iframe{
-  transition: .5s ease;
-  height: 150px;
-  width: auto;
-  margin-top: 25px;
-}
-
-  .band {
-    height: 150px;
-    width: 150px;
-  }
-
-  .title {
-    font-size: 1em;
-  }
-  
-  .bears {
-    height: 150px;
-    width: 150px;
-    margin-top: 15px;
-    margin-left: 45%;
+    margin-top: 20px;
   }
 }
 
