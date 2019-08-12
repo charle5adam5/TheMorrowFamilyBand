@@ -165,7 +165,6 @@ nav a:hover {
 }
 .main-vid iframe{
   transition: .5s ease;
-  margin-left: 25%;
   margin-top: -125px;
   height: 200px;
   width: auto;
@@ -183,10 +182,59 @@ nav a:hover {
   
   .bears {
     margin-top: 25px;
-    margin-left: 45%;
+    margin-left: 25%;
   }
 }
 
+@media screen and (max-width: 500px) {
+  .home {
+    height: 100%;
+  }
+ nav {
+   transition: .5s ease;
+   display: flex;
+   flex-flow: column;
+   justify-content: space-between;
+   align-items: center;
+   width: 20%;
+   height: 200px;
+   padding: 0;
+   border-right: double 5px dimgray;
+   font-size: .5em;
+ }
+  nav a {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+
+.home-box {
+  transition: .5s ease;
+  margin-left: 25%;
+  margin-top: -125px;
+}
+.main-vid iframe{
+  transition: .5s ease;
+  height: 150px;
+  width: auto;
+  margin-top: 25px;
+}
+
+  .band {
+    height: 150px;
+    width: 150px;
+  }
+
+  .title {
+    font-size: 1em;
+  }
+  
+  .bears {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 45%;
+  }
+}
 
 
 /* About style */
