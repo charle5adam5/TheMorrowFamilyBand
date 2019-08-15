@@ -15,12 +15,7 @@ let dates = [
     month: 9,
     day: 6
   },
- 
-  {
-    year: 2019,
-    month: 8,
-    day: 16
-  },
+
  
  
 
