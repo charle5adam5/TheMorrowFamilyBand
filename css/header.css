@@ -97,6 +97,7 @@ nav a {
   text-decoration: none;
   color: dimgrey;
   margin: 2%;
+  text-align: center;
 }
 nav a:hover {
   color: #E74C3C;
@@ -105,12 +106,10 @@ nav a:hover {
 .current {
   background-color: #E74C3C;
   color: white;
-  padding: 5px;
+  padding: 1.5%;
 }
 .current:hover {
-  background-color: #E74C3C;
   color: white;
-  padding: 5px;
 }
 
 
@@ -142,7 +141,12 @@ nav a:hover {
     font-size: 1.75em;
   }
 
+  .main-vid {
+    flex-flow: column;
+  }
+
   .main-vid > iframe {
+    margin: 2%;
     height: 150px;
     width: auto;
   }
