@@ -1,40 +1,34 @@
-let dates = [
+let dates = [ 
+  {
+    year: 2020,
+    month: 4,
+    day: 11
+  },
   {
     year: 2019,
-    month: 10,
-    day: 5
+    month: 12,
+    day: 19
+  }, 
+{
+  year: 2019,
+  month: 12,
+  day: 6
+},
+  {
+    year: 2019,
+    month: 11,
+    day: 2
+  },
+  {
+    year: 2019,
+    month: 11,
+    day: 1
   },
   {
     year: 2019,
     month: 10,
-    day: 4
+    day: 26
   },
-  {
-    year: 2019,
-    month: 10,
-    day: 3
-  },
-  {
-    year: 2019,
-    month: 9,
-    day: 27
-  },
- 
-  {
-    year: 2019,
-    month: 9,
-    day: 21
-  },
-  {
-    year: 2019,
-    month: 9,
-    day: 6
-  },
-
- 
- 
-
- 
 ];
 
 let date = document.querySelectorAll('.date');
