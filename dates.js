@@ -21,11 +21,6 @@ let dates = [
   },
   {
     year: 2019,
-    month: 11,
-    day: 1
-  },
-  {
-    year: 2019,
     month: 10,
     day: 26
   },
