@@ -1,9 +1,32 @@
 let dates = [ 
+  jan 3rd flavors
+  jan 24 private event Tringali barn 
+  march 24-25 private event wgv & aunt kates
   {
     year: 2020,
     month: 4,
     day: 11
   },
+  {
+    year: 2020,
+    month: 3,
+    day: 24
+  }, 
+  {
+    year: 2020,
+    month: 3,
+    day: 24
+  }, 
+  {
+    year: 2020,
+    month: 1,
+    day: 24
+  }, 
+  {
+    year: 2020,
+    month: 1,
+    day: 3
+  }, 
   {
     year: 2019,
     month: 12,
