@@ -1,7 +1,4 @@
 let dates = [ 
-  jan 3rd flavors
-  jan 24 private event Tringali barn 
-  march 24-25 private event wgv & aunt kates
   {
     year: 2020,
     month: 4,
