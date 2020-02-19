@@ -1,49 +1,49 @@
 let dates = [ 
   {
     year: 2020,
+    month: 6,
+    day: 18
+  }, 
+  {
+    year: 2020,
+    month: 6,
+    day: 5
+  }, 
+  {
+    year: 2020,
+    month: 5,
+    day: 8
+  }, 
+  {
+    year: 2020,
     month: 4,
     day: 11
   },
   {
     year: 2020,
-    month: 3,
-    day: 24
+    month: 4,
+    day: 4
   }, 
   {
     year: 2020,
-    month: 3,
-    day: 24
-  }, 
-  {
-    year: 2020,
-    month: 1,
-    day: 24
-  }, 
-  {
-    year: 2020,
-    month: 1,
+    month: 4,
     day: 3
   }, 
   {
-    year: 2019,
-    month: 12,
-    day: 19
+    year: 2020,
+    month: 3,
+    day: 24
   }, 
-{
-  year: 2019,
-  month: 12,
-  day: 6
-},
   {
-    year: 2019,
-    month: 11,
-    day: 2
-  },
+    year: 2020,
+    month: 3,
+    day: 13
+  }, 
   {
-    year: 2019,
-    month: 10,
-    day: 26
-  },
+    year: 2020,
+    month: 2,
+    day: 29
+  }, 
 ];
 
 let date = document.querySelectorAll('.date');
